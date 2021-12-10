@@ -36,13 +36,16 @@ header .menu-de-navigation {
 .image-resize-mode {
     width: 100px;
 }
+.orange {
+    color: #CD4B0E !important;
+}
 /* Modif bloc 2 */
 #bloc-2-services .definition-bloc-2 {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: normal;
     text-align: center;
     margin: 15px auto 20px auto;
-    max-width: 550px;
+    max-width: 600px;
 }
 #bloc-2-services .citation span {
     font-size: 20px;
