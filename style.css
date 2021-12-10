@@ -83,7 +83,11 @@ footer .social-links {
     visibility: hidden;
     position: absolute;
 }
-/* Fin */
+/* Modif bloc 7*/
+#bloc-7 label {
+    font-size: 18px;
+    margin: 5px 0 5px 0;
+}
 /******/
 
 .bloc {
@@ -838,7 +842,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFAB85!important;
+    color: #FFE9E0!important;
 }
 
 .btn-atomic-tangerine {
