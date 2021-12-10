@@ -26,6 +26,12 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+/******************/
+/* Modif Header */
+header .menu-de-navigation {
+    visibility: hidden;
+    position: absolute;
+}
 /* Modif bloc 1 */
 .image-resize-mode {
     width: 100px;
@@ -47,7 +53,7 @@ a:hover {
     max-width: 550px;
 }
 .citation {
-    font-size: 15px;
+    font-size: 18px;
 }
 /* Modif bloc 4 */
 #bloc-4-portfolio .titre {
@@ -60,12 +66,25 @@ a:hover {
 /* Modif footer */
 footer .category-footer {
     margin: 0 0 10px 25px;
-    font-size: 15px;
+    font-size: 18px;
 }
 footer ul {
     margin-top: 10px;
+    color: #E8E8E8;
+}
+footer a {
+    font-size: 18px;
+    color: #E8E8E8 !important;
+}
+footer .col-sm-3 {
+    padding: 5px;
+}
+footer .social-links {
+    visibility: hidden;
+    position: absolute;
 }
 /* Fin */
+/******/
 
 .bloc {
     width: 100%;
@@ -721,7 +740,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -815,20 +834,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #b4410c;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFAB85!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #CD4B0E;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #b4410c!important;
     color: #FFFFFF!important;
 }
 
